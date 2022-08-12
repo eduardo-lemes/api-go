@@ -1,9 +1,61 @@
+
 # api-go
 
-Praticando criação de api REST com GoLang.
+Projeto simples trabalhado com GoLang. É possível Criar, editar, buscar, editar e deletar
+dados usando API.
 
-Foi utilizado:<br>
-mux como roteador<br>
-Criado rotas de GET ALL, GET ID, POST, DELETE and PUT<br>
-Utilizado middleware para setar ContentType, application/json<br>
-Subindo postgres com docker e conectando ao banco usando gorm<br>
+
+## Stack utilizada
+
+**Back-end:** Go, Gorm, Docker
+
+
+## Documentação da API
+
+#### Retorna todas as personalidades
+
+```http
+  GET /api/personalidades
+```
+
+#### Retorna uma personalidade
+
+```http
+  GET /api/personalidades/{id}
+```
+
+#### Cria uma personalidade
+
+```http
+  POST /api/personalidades
+```
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `nome` | `string` |Nome da personalidade |
+| `historia` | `string` |historia da personalidade |
+
+#### Edita uma personalidade passando o id
+
+```http
+  PUT /api/personalidades/{id}
+```
+| Parâmetro   | Tipo       | Descrição                           |
+| :---------- | :--------- | :---------------------------------- |
+| `nome` | `string` |Alteração |
+| `historia` | `string` |Alteração |
+
+#### Deleta uma personalidade passando o id
+
+```http
+  DELETE /api/personalidades/{id}
+```
+
+## Aprendizados
+
+Primeira experiência na criação de API com Go. O principal desafio foi a própria sintaxe da linguagem.
+
+
+## Autores
+
+- [Eduardo Lemes](https://github.com/eduardo-lemes)
+
