@@ -14,7 +14,7 @@ dados usando API.
 
 #### Retorna todas as personalidades
 
-```http
+```
   GET /api/personalidades
 ```
 
@@ -36,9 +36,9 @@ dados usando API.
 
 #### Edita uma personalidade passando o id
 
-```http
+``
   PUT /api/personalidades/{id}
-```
+``
 | Parâmetro   | Tipo       | Descrição                           |
 | :---------- | :--------- | :---------------------------------- |
 | `nome` | `string` |Alteração |
