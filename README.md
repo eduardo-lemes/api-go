@@ -4,6 +4,10 @@
 Projeto simples trabalhado com GoLang. É possível Criar, editar, buscar, editar e deletar
 dados usando API.
 
+## Aprendizados
+
+Primeira experiência na criação de API com Go. O principal desafio foi a própria sintaxe da linguagem.
+
 
 ## Stack utilizada
 
@@ -49,11 +53,6 @@ dados usando API.
 ```
   DELETE /api/personalidades/{id}
 ```
-
-## Aprendizados
-
-Primeira experiência na criação de API com Go. O principal desafio foi a própria sintaxe da linguagem.
-
 
 ## Autores
 
